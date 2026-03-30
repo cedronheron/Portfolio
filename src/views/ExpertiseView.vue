@@ -1,5 +1,5 @@
 <template>
-  <section class="space-y-12">
+  <section id="expertise" class="space-y-12 section-lined">
     <div class="space-y-2">
       <p class="tag-pill bg-white/5 w-fit">Expertise</p>
       <h1 class="text-3xl font-semibold text-white">Skills & analytics</h1>

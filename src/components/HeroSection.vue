@@ -4,10 +4,10 @@
       <div class="absolute -left-10 -top-8 h-16 w-16 rounded-full border border-white/10 animate-float" />
       <p class="tag-pill w-fit bg-white/5 border-white/10">Available for select client work</p>
       <h1 class="text-4xl md:text-5xl font-semibold leading-tight text-white">
-        Crafting elegant web experiences that convert.
+        Web and mobile apps that ship fast and stay maintainable.
       </h1>
       <p class="text-lg text-slate-300 leading-relaxed max-w-2xl">
-        I build performant, maintainable products across the stack — from Vue frontends to PHP APIs and PostgreSQL data models. I lean on thoughtful design, measurable UX, and fast delivery.
+        I deliver Vue 3 + Tailwind frontends, PHP/Laravel APIs, and PostgreSQL/Supabase backends with clean handoffs. Mobile? I wrap with Capacitor for iOS/Android while keeping a single codebase.
       </p>
       <div class="flex flex-wrap gap-3">
         <a
@@ -91,9 +91,9 @@ const props = defineProps({
 });
 
 const focus = [
-  'Vue 3, Tailwind, Vite',
-  'PHP (Laravel) & Node APIs',
-  'PostgreSQL, Prisma, Supabase',
+  'Vue 3 + Tailwind UI systems',
+  'PHP (Laravel) + Supabase/PostgreSQL',
+  'Capacitor shells for iOS/Android',
   'CI/CD, analytics, A/B tests'
 ];
 

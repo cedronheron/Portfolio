@@ -14,6 +14,80 @@ body {
     #0b1224;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset anchor scroll to account for sticky nav height */
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+.section-lined {
+  position: relative;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.section-lined::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255, 138, 107, 0.5), rgba(47, 173, 229, 0.35));
+  opacity: 0.7;
+}
+
+.floating-cluster {
+  position: absolute;
+  top: -18px;
+  right: -10px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-bubble {
+  height: 44px;
+  width: 44px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  animation: floatLoop 4s ease-in-out infinite;
+}
+
+.icon-bubble img {
+  height: 22px;
+  width: 22px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+}
+
+.float-delay-1 {
+  animation-delay: 0.2s;
+}
+
+.float-delay-2 {
+  animation-delay: 0.4s;
+}
+
+@keyframes floatLoop {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
 .grain-overlay {
   position: fixed;
   inset: 0;

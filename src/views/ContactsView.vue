@@ -1,5 +1,5 @@
 <template>
-  <section class="space-y-10">
+  <section id="contact" class="space-y-10">
     <div class="space-y-2">
       <p class="tag-pill bg-white/5 w-fit">Contact</p>
       <h1 class="text-3xl font-semibold text-white">Let’s work together</h1>
