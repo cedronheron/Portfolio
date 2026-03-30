@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="space-y-8">
+  <section id="portfolio" class="space-y-8 section-lined">
     <div class="flex items-center justify-between">
       <h2 class="section-title line-accent">Selected work</h2>
       <p class="text-sm text-slate-400">Recent highlights that clients love</p>

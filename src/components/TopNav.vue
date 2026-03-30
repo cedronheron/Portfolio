@@ -15,6 +15,13 @@
           <p class="font-semibold text-white">Nheron</p>
         </div>
       </div>
+      <div class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+        <a href="#about" class="hover:text-white transition" @click="trackEvent('nav', { target: 'about' })">About</a>
+        <a href="#expertise" class="hover:text-white transition" @click="trackEvent('nav', { target: 'expertise' })">Skills</a>
+        <a href="#portfolio" class="hover:text-white transition" @click="trackEvent('nav', { target: 'portfolio' })">Work</a>
+        <a href="#certificates" class="hover:text-white transition" @click="trackEvent('nav', { target: 'certificates' })">Certificates</a>
+        <a href="#contact" class="hover:text-white transition" @click="trackEvent('nav', { target: 'contact' })">Contact</a>
+      </div>
       <div class="flex items-center gap-3">
         <span class="hidden md:inline-flex items-center gap-2 tag-pill bg-white/5 text-xs">
           <span class="h-2.5 w-2.5 rounded-full bg-emerald-400 animate-ping-slow" aria-hidden="true"></span>

@@ -1,5 +1,5 @@
 <template>
-  <section id="certificates" class="space-y-6">
+  <section id="certificates" class="space-y-6 section-lined">
     <div class="flex items-center justify-between">
       <h2 class="section-title line-accent">Certificates</h2>
       <p class="text-sm text-slate-400">Proof of craft and rigor</p>

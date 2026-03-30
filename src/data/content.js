@@ -110,9 +110,21 @@ export const aboutMetrics = [
 ];
 
 export const socialLinks = [
-  { name: 'Instagram', url: 'https://instagram.com' },
-  { name: 'GitHub', url: 'https://github.com' },
-  { name: 'Facebook', url: 'https://facebook.com' }
+  {
+    name: 'Instagram',
+    url: 'https://instagram.com',
+    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg'
+  },
+  {
+    name: 'GitHub',
+    url: 'https://github.com',
+    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg'
+  },
+  {
+    name: 'Facebook',
+    url: 'https://facebook.com',
+    icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg'
+  }
 ];
 
 export const contactInfo = {

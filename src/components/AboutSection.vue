@@ -85,16 +85,19 @@
             </svg>
             Socials
           </p>
-          <div class="flex gap-3 text-slate-200 font-semibold">
+          <div class="flex gap-2 text-slate-200">
             <a
               v-for="social in socialLinks"
               :key="social.name"
-              class="hover:text-accent-300"
+              class="h-10 w-10 rounded-xl bg-white/5 border border-white/10 grid place-items-center hover:border-accent-300 hover:bg-accent-500/10 transition"
               :href="social.url"
               target="_blank"
               rel="noopener"
+              :aria-label="social.name"
+              :title="social.name"
             >
-              {{ social.name }}
+              <img :src="social.icon" :alt="social.name + ' logo'" class="h-6 w-6 object-contain invert opacity-80" loading="lazy" />
+              <span class="sr-only">{{ social.name }}</span>
             </a>
           </div>
         </div>
